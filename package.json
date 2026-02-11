@@ -1,0 +1,58 @@
+{
+  "name": "luxury-engagement-rings-london",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "postbuild": "react-snap",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.30.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^5.0.0",
+    "react-snap": "^1.23.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  },
+  "reactSnap": {
+    "source": "dist",
+    "inlineCss": true,
+    "minifyHtml": {
+      "collapseWhitespace": true,
+      "removeComments": true
+    },
+    "include": [
+      "/",
+      "/best-london-rings",
+      "/locations",
+      "/locations/mayfair",
+      "/locations/marylebone",
+      "/locations/belgravia",
+      "/locations/knightsbridge",
+      "/locations/chelsea",
+      "/locations/kensington",
+      "/locations/notting-hill",
+      "/locations/holland-park",
+      "/locations/st-johns-wood",
+      "/locations/hampstead",
+      "/locations/primrose-hill",
+      "/locations/richmond",
+      "/locations/putney",
+      "/locations/wimbledon-village",
+      "/locations/battersea",
+      "/knowledge-hub",
+      "/supplier-of-the-month",
+      "/about"
+    ]
+  }
+}
